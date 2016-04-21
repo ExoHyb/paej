@@ -18,13 +18,64 @@
         <div class="col-md-6">
             <div class="style-actus">
                 <h2>Actualités du PAEJ</h2>
-                <ul>
-                    <li><a href="#">Actualité 1 : Lorem ipsum dolor sit amet...</a></li>
-                    <li><a href="#">Actualité 2 : Lorem ipsum dolor sit amet...</a></li>
-                    <li><a href="#">Actualité 3 : Lorem ipsum dolor sit amet...</a></li>
-                    <li><a href="#">Actualité 4 : Lorem ipsum dolor sit amet...</a></li>
-                    <li><a href="#">Actualité 5 : Lorem ipsum dolor sit amet...</a></li>
-                </ul>
+                <div class="separate-line"></div>
+                <div class="row">
+                    <div class="article-actu">
+                        <div class="col-md-3">
+                            <img class="img-responsive" src="http://placehold.it/250x250" alt="" />
+                        </div>
+                        <div class="col-md-9">
+                            <div class="text-article">
+                                <p id="date">
+                                    29 mars 2016 à 11:55
+                                </p>
+                                <h3>Zombies reversus ab inferno</h3>
+                                <p>
+                                    Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="separate-line"></div>
+                <div class="row">
+                    <div class="article-actu">
+                        <div class="col-md-3">
+                            <img class="img-responsive" src="http://placehold.it/250x250" alt="" />
+                        </div>
+                        <div class="col-md-9">
+                            <div class="text-article">
+                                <p id="date">
+                                    29 mars 2016 à 11:55
+                                </p>
+                                <h3>Zombies reversus ab inferno</h3>
+                                <p>
+                                    Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="separate-line"></div>
+                <div class="row">
+                    <div class="article-actu">
+                        <div class="col-md-3">
+                            <img class="img-responsive" src="http://placehold.it/250x250" alt="" />
+                        </div>
+                        <div class="col-md-9">
+                            <div class="text-article">
+                                <p id="date">
+                                    29 mars 2016 à 11:55
+                                </p>
+                                <h3>Zombies reversus ab inferno</h3>
+                                <p>
+                                    Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="separate-line"></div>
                 <div class="button-home">
                     <a href="#">Plus d'actus...</a>
                 </div>

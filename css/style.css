@@ -56,7 +56,15 @@ h2 {
 }
 
 .button-home {
-  text-align: right;
+  text-align: center;
+  height: 3em;
+  line-height: 3em;
+  background-color: rgba(26, 103, 127, 0.5);
+}
+.button-home a {
+  font-family: "Poiret One";
+  font-size: 1.5em;
+  text-decoration: none;
 }
 
 .style-actus {
@@ -65,10 +73,12 @@ h2 {
 
 .style-activites {
   border: 1px solid #999;
+  padding-left: 1.5em;
 }
 
 .style-faq-accueil {
   border: 1px solid #999;
+  padding-left: 1.5em;
   margin-top: 2em;
 }
 
@@ -80,6 +90,22 @@ h2 {
 .style-facebook {
   border: 1px solid #999;
   margin-top: 2em;
+}
+
+.separate-line {
+  border-bottom: 1px solid #999;
+}
+
+.article-actu .text-article {
+  padding-top: 0.5em;
+}
+.article-actu h3 {
+  color: #555;
+  margin-top: -0.3em;
+}
+.article-actu #date {
+  font-size: 0.8em;
+  color: #555;
 }
 
 /*# sourceMappingURL=style.css.map */
