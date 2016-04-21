@@ -1,0 +1,21 @@
+{
+  "name": "paej",
+  "homepage": "https://github.com/ExoHyb/paej",
+  "authors": [
+    "ExoHyb <theo.martin22@icloud.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "fontawesome#^4.6.1"
+  }
+}
