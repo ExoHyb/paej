@@ -1,0 +1,35 @@
+@import "navbar.scss";
+@import "footer.scss";
+
+h2 {
+    font-family: "Poiret One";
+}
+
+.button-home {
+    text-align: right;
+    a {
+    }
+}
+
+.style-actus {
+    border: 1px solid #999;
+}
+
+.style-activites {
+    border: 1px solid #999;
+}
+
+.style-faq-accueil {
+    border: 1px solid #999;
+    margin-top: 2em;
+}
+
+.style-contact {
+    border: 1px solid #999;
+    margin-top: 2em;
+}
+
+.style-facebook {
+    border: 1px solid #999;
+    margin-top: 2em;
+}

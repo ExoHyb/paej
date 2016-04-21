@@ -1,0 +1,85 @@
+.mod-header {
+  margin-top: 2em;
+}
+
+.menu-general {
+  font-family: "Poiret One";
+  font-size: 2.5em;
+}
+
+.menu-general ul {
+  list-style: none;
+}
+
+.menu-general a {
+  color: #444;
+}
+
+.menu-general a:hover {
+  color: #C8373C;
+  text-decoration: none;
+}
+
+.menu-gauche {
+  margin-right: -22px;
+  margin-top: 20px;
+}
+
+.menu-droite {
+  margin-left: -40px;
+  margin-top: 20px;
+}
+
+.element-menu-1 {
+  margin-right: -12px;
+}
+
+.element-menu-3 {
+  margin-right: -12px;
+}
+
+.element-menu-4 {
+  margin-left: -12px;
+}
+
+.element-menu-6 {
+  margin-left: -12px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3em;
+}
+
+h2 {
+  font-family: "Poiret One";
+}
+
+.button-home {
+  text-align: right;
+}
+
+.style-actus {
+  border: 1px solid #999;
+}
+
+.style-activites {
+  border: 1px solid #999;
+}
+
+.style-faq-accueil {
+  border: 1px solid #999;
+  margin-top: 2em;
+}
+
+.style-contact {
+  border: 1px solid #999;
+  margin-top: 2em;
+}
+
+.style-facebook {
+  border: 1px solid #999;
+  margin-top: 2em;
+}
+
+/*# sourceMappingURL=style.css.map */
