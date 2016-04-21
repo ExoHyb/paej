@@ -55,25 +55,64 @@ h2 {
   font-family: "Poiret One";
 }
 
-.button-home {
+.style-actus {
+  border: 1px solid #2CAFD9;
+}
+.style-actus .button-home {
   text-align: center;
   height: 3em;
   line-height: 3em;
-  background-color: rgba(26, 103, 127, 0.5);
+  background-color: #2CAFD9;
 }
-.button-home a {
+.style-actus a {
   font-family: "Poiret One";
   font-size: 1.5em;
   text-decoration: none;
+  color: #fff;
 }
-
-.style-actus {
-  border: 1px solid #999;
+.style-actus .separate-line {
+  border-bottom: 1px solid #2CAFD9;
+}
+.style-actus .article-actu .text-article {
+  padding-top: 0.5em;
+}
+.style-actus .article-actu h3 {
+  color: #555;
+  margin-top: -0.3em;
+}
+.style-actus .article-actu #date {
+  font-size: 0.8em;
+  color: #555;
 }
 
 .style-activites {
-  border: 1px solid #999;
-  padding-left: 1.5em;
+  border: 1px solid #FF7070;
+}
+.style-activites .button-home {
+  text-align: center;
+  height: 3em;
+  line-height: 3em;
+  background-color: #FF7070;
+}
+.style-activites a {
+  font-family: "Poiret One";
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #fff;
+}
+.style-activites .separate-line {
+  border-bottom: 1px solid #FF7070;
+}
+.style-activites .display-activites .text-article {
+  padding-top: 0.5em;
+}
+.style-activites .display-activites .text-article h3 {
+  color: #555;
+  margin-top: -0.3em;
+}
+.style-activites .display-activites .text-article #date {
+  font-size: 0.8em;
+  color: #555;
 }
 
 .style-faq-accueil {
@@ -90,22 +129,6 @@ h2 {
 .style-facebook {
   border: 1px solid #999;
   margin-top: 2em;
-}
-
-.separate-line {
-  border-bottom: 1px solid #999;
-}
-
-.article-actu .text-article {
-  padding-top: 0.5em;
-}
-.article-actu h3 {
-  color: #555;
-  margin-top: -0.3em;
-}
-.article-actu #date {
-  font-size: 0.8em;
-  color: #555;
 }
 
 /*# sourceMappingURL=style.css.map */
