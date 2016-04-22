@@ -3,11 +3,25 @@
 @import "nadege.scss";
 @import "theo.scss";
 
+body {
+    background: url(../img/background.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 h2 {
     font-family: "Poiret One";
 }
 
+.style-presentation {
+    background-color: #FFF;
+    border: 1px solid #999;
+    margin-bottom: 2em;
+}
+
 .style-actus {
+    background-color: #FFF;
     border: 1px solid #2CAFD9;
     .button-home {
         text-align: center;
@@ -40,6 +54,7 @@ h2 {
 }
 
 .style-activites {
+    background-color: #FFF;
     border: 1px solid #FF7070;
     .button-home {
         text-align: center;
@@ -72,12 +87,14 @@ h2 {
 }
 
 .style-faq-accueil {
+    background-color: #FFF;
     border: 1px solid #999;
     padding-left: 1.5em;
     margin-top: 2em;
 }
 
 .style-contact {
+    background-color: #FFF;
     border: 1px solid #999;
     margin-top: 2em;
 }
@@ -86,5 +103,3 @@ h2 {
     border: 1px solid #999;
     margin-top: 2em;
 }
-
-

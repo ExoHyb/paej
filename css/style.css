@@ -46,16 +46,34 @@
   margin-left: -12px;
 }
 
+.style-logo {
+  width: 300px;
+}
+
 footer {
   text-align: center;
   margin-top: 3em;
+}
+
+body {
+  background: url(../img/background.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h2 {
   font-family: "Poiret One";
 }
 
+.style-presentation {
+  background-color: #FFF;
+  border: 1px solid #999;
+  margin-bottom: 2em;
+}
+
 .style-actus {
+  background-color: #FFF;
   border: 1px solid #2CAFD9;
 }
 .style-actus .button-home {
@@ -86,6 +104,7 @@ h2 {
 }
 
 .style-activites {
+  background-color: #FFF;
   border: 1px solid #FF7070;
 }
 .style-activites .button-home {
@@ -116,12 +135,14 @@ h2 {
 }
 
 .style-faq-accueil {
+  background-color: #FFF;
   border: 1px solid #999;
   padding-left: 1.5em;
   margin-top: 2em;
 }
 
 .style-contact {
+  background-color: #FFF;
   border: 1px solid #999;
   margin-top: 2em;
 }
