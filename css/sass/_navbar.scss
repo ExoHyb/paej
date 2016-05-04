@@ -6,7 +6,7 @@ header {
 .menu-principal {
 	list-style-type: none;
 	text-align: center;
-	border: 1px solid #E24566;
+	border: 1px solid #fff;
 	background-color: #E24566;
 	height: 4em;
 	li {
@@ -22,5 +22,6 @@ header {
 	}
 	a:hover {
 		text-decoration: none;
+		font-weight: bold;
 	}
 }
