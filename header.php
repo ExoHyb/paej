@@ -27,7 +27,7 @@
                                 <li><a href="actualites.php">Actualités</a></li>
                                 <li><a href="activites.php">Activités & Actions du PAEJ</a></li>
                                 <li><a href="#">Cartes & Ressources</a></li>
-                                <li><a href="#">Vos questions..</a></li>
+                                <li><a href="faq.php">Vos questions..</a></li>
                             </ul>
                         </div>
                     </div>

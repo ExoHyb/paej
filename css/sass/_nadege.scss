@@ -1,77 +1,15 @@
 //page actions-activites
 .deco-actions {
-    background-color: #FFF;
-    border: 1px solid #2E8B57;
-    margin-top: 2em;
-    p {
-      margin-top:1em;
-      margin-left: 1em;
-    }
-
-    .background-title {
-        background-color: #2E8B57;
-        color: #fff;
-        text-align: center;
-        height: 4em;
-        margin-top: -20px;
-        h2 {
-            line-height: 2em;
-        }
-    }
-}
-
-.deco-activites {
-    background-color: #FFF;
-    border: 1px solid #FF7070;
-    margin-top: 2em;
-    p{
-      margin-top: 1em;
-      margin-left: 1em;
-    }
-    .background-title {
-        background-color: #FF7070;
-        color: #fff;
-        text-align: center;
-        height: 4em;
-        margin-top: -20px;
-        h2 {
-            line-height: 2em;
-        }
-    }
-}
-//page actualites
-.deco-actualites {
-    h1{
-      text-align: center;
-      font-family:"Poiret One";
-    }
-    background-color: #FFF;
-    border: 1px solid #2CAFD9;
-    margin-top: 2em;
-    p{
-      margin-top: 1em;
-
-    }
-    .background-title {
-        background-color: #2CAFD9;
-        color: #fff;
-        text-align: center;
-        height: 4em;
-        margin-top: -20px;
-        margin-left: -42px;;
-        h2 {
-            line-height: 2em;
-        }
-    }
-}
-//page faq
-.deco-faq {
   background-color: #FFF;
-  border: 1px solid #74CC45;
+  border: 1px solid #2E8B57;
   margin-top: 2em;
-  .background-title2 {
-    background-color: #74CC45;
-    //border-bottom: 1px solid #74CC45;
+  p {
+    margin-top:1em;
+    margin-left: 1em;
+  }
+
+  .background-title {
+    background-color: #2E8B57;
     color: #fff;
     text-align: center;
     height: 4em;
@@ -79,25 +17,82 @@
     h2 {
       line-height: 2em;
     }
-    a {
-      font-family: "Poiret One";
-      font-size: 1.5em;
-      text-decoration: none;
-    }
-    .separate-line2 {
-      border-bottom: 1px solid #74CC45;
-    }
-    ul {
-      list-style-type: none;
-    }
-    li {
-      margin: 1em 0;
-    }
-    a {
-      color: #333;
-    }
-    a:hover {
-      color: #999;
+  }
+}
+
+.deco-activites {
+  background-color: #FFF;
+  border: 1px solid #FF7070;
+  margin-top: 2em;
+  p{
+    margin-top: 1em;
+    margin-left: 1em;
+  }
+  .background-title {
+    background-color: #FF7070;
+    color: #fff;
+    text-align: center;
+    height: 4em;
+    margin-top: -20px;
+    h2 {
+      line-height: 2em;
     }
   }
+}
+//page actualites
+.deco-actualites {
+  h1{
+    text-align: center;
+    font-family:"Poiret One";
+  }
+  background-color: #FFF;
+  border: 1px solid #2CAFD9;
+  margin-top: 2em;
+  p{
+    margin-top: 1em;
+
+  }
+  .background-title {
+    background-color: #2CAFD9;
+    color: #fff;
+    text-align: center;
+    height: 4em;
+    margin-top: -20px;
+    margin-left: -42px;;
+    h2 {
+      line-height: 2em;
+    }
+  }
+}
+//page faq
+.deco-faq {
+    background-color: #FFF;
+    border: 1px solid #74CC45;
+    margin-top: 2em;
+    .background-title {
+        background-color: #74CC45;
+        // border-bottom: 1px solid #74CC45;
+        color: #fff;
+        text-align: center;
+        height: 4em;
+        margin-top: -20px;
+        h2 {
+            line-height: 2em;
+        }
+    }
+    .separate-line {
+        border-bottom: 1px solid #74CC45;
+    }
+    ul {
+        list-style-type: none;
+    }
+    li {
+        margin: 1em 0;
+    }
+    a {
+        color: #333;
+    }
+    a:hover {
+        color: #999;
+    }
 }
