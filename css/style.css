@@ -55,20 +55,44 @@ footer {
   margin-top: 3em;
 }
 
-.action {
-  border: 1px solid #999;
-  margin-top: 3em;
-  padding-left: 2em;
+.deco-actions {
+  background-color: #FFF;
+  border: 1px solid #2E8B57;
+  margin-top: 2em;
+}
+.deco-actions p {
+  margin-top: 1em;
+  margin-left: 1em;
+}
+.deco-actions .background-title1 {
+  background-color: #2E8B57;
+  color: #fff;
+  text-align: center;
+  height: 4em;
+  margin-top: -20px;
+}
+.deco-actions .background-title1 h2 {
+  line-height: 2em;
 }
 
-h2 {
-  font-weight: bold;
+.deco-activites {
+  background-color: #FFF;
+  border: 1px solid #FF7070;
+  margin-top: 2em;
 }
-
-.activite {
-  border: 1px solid #999;
-  margin-top: 3em;
-  padding-left: 2em;
+.deco-activites p {
+  margin-top: 1em;
+  margin-left: 1em;
+}
+.deco-activites .background-title {
+  background-color: #FF7070;
+  color: #fff;
+  text-align: center;
+  height: 4em;
+  margin-top: -20px;
+}
+.deco-activites .background-title h2 {
+  line-height: 2em;
 }
 
 body {
@@ -245,5 +269,3 @@ h2 {
   border: 1px solid #999;
   margin-top: 2em;
 }
-
-/*# sourceMappingURL=style.css.map */
