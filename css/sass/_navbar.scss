@@ -6,7 +6,9 @@ header {
 .menu-principal {
 	list-style-type: none;
 	text-align: center;
-	background-color: #777;
+	border: 1px solid #E24566;
+	background-color: #E24566;
+	height: 4em;
 	li {
 		display: inline-block;
 		margin: 0 1em;
@@ -14,8 +16,9 @@ header {
 	a {
 		font-family: "Poiret One";
 		font-size: 1.5em;
-		font-weight: bold;
-		color: #000;
+		/* font-weight: bold; */
+		color: #fff;
+		line-height: 2.5em;
 	}
 	a:hover {
 		text-decoration: none;

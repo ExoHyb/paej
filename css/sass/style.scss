@@ -19,7 +19,8 @@ h2 {
     border: 1px solid #FD6D45;
     margin-bottom: 2em;
     .background-title {
-        background-color: #FD6D45;
+        /* background-color: #FD6D45; */
+        border-bottom: 1px solid #FD6D45;
         color: #fff;
         text-align: center;
         height: 4em;
@@ -28,7 +29,7 @@ h2 {
             line-height: 2em;
         }
         a {
-            color: #fff;
+            color: #000;
         }
         a:hover {
             text-decoration: none;
@@ -152,8 +153,9 @@ h2 {
     border: 1px solid #74CC45;
     margin-top: 2em;
     .background-title {
-        background-color: #74CC45;
-        color: #fff;
+        /* background-color: #74CC45; */
+        // border-bottom: 1px solid #74CC45;
+        color: #000;
         text-align: center;
         height: 4em;
         margin-top: -20px;
@@ -165,9 +167,10 @@ h2 {
         text-align: center;
         height: 3em;
         line-height: 3em;
-        background-color: #74CC45;
+        background-color: #FFF;
+        border-top: 1px solid #74CC45;
         a {
-            color: #FFF;
+            color: #000;
         }
     }
     a {
