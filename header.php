@@ -16,30 +16,21 @@
             <nav>
                 <div class="container">
                 	<div class="row">
-                		<div class="mod-header">
-                			<div class="col-md-5">
-                			<div class="menu-general menu-gauche text-right">
-                					<ul>
-                						<li><a class="element-menu-1" href="#">Accueil</a></li>
-                						<li><a class="element-menu-2" href="#">Actions/Activités</a></li>
-                						<li><a class="element-menu-3" href="#">Actualités</a></li>
-                					</ul>
-                				</div>
-                			</div>
-                			<div class="col-md-2">
-                				<img class="style-logo" src="img/logo_final.png" alt="logo paej">
-                			</div>
-                			<div class="col-md-5">
-                				<div class="menu-general menu-droite">
-                					<ul>
-                						<li><a class="element-menu-4" href="#">Cartes</a></li>
-                						<li><a class="element-menu-5" href="#">Questions/FAQ</a></li>
-                						<li><a class="element-menu-6" href="dashboard/dashboard.php">Gestion site</a></li>
-                					</ul>
-                				</div>
-                			</div>
-                		</div>
+                        <div class="col-md-4 col-md-offset-4">
+                            <img class="img-responsive" src="img/logo_final.png" alt="">
+                        </div>
                 	</div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="menu-principal">
+                                <li><a href="#">Accueil</a></li>
+                                <li><a href="#">Actualités</a></li>
+                                <li><a href="#">Activités & Actions du PAEJ</a></li>
+                                <li><a href="#">Cartes & Ressources</a></li>
+                                <li><a href="#">Vos questions..</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </nav>
         </header>
