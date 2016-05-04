@@ -36,14 +36,14 @@ footer {
   margin-top: 1em;
   margin-left: 1em;
 }
-.deco-actions .background-title1 {
+.deco-actions .background-title {
   background-color: #2E8B57;
   color: #fff;
   text-align: center;
   height: 4em;
   margin-top: -20px;
 }
-.deco-actions .background-title1 h2 {
+.deco-actions .background-title h2 {
   line-height: 2em;
 }
 
@@ -73,6 +73,39 @@ footer {
     background-repeat: no-repeat;
     background-attachment: fixed;
 } */
+
+.deco-actualites {
+  background-color: #FFF;
+  border: 1px solid #2CAFD9;
+  margin-top: 2em;
+}
+.deco-actualites h1 {
+  text-align: center;
+  font-family: "Poiret One";
+}
+.deco-actualites p {
+  margin-top: 1em;
+}
+.deco-actualites .background-title {
+  background-color: #2CAFD9;
+  color: #fff;
+  text-align: center;
+  height: 4em;
+  margin-top: -20px;
+  margin-left: -42px;
+}
+.deco-actualites .background-title h2 {
+  line-height: 2em;
+}
+
+body {
+  /*     background: url(../img/background.png);
+       */
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 h2 {
   font-family: "Poiret One";
 }

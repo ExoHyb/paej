@@ -6,8 +6,8 @@
       margin-top:1em;
       margin-left: 1em;
     }
-  
-    .background-title1 {
+
+    .background-title {
         background-color: #2E8B57;
         color: #fff;
         text-align: center;
@@ -33,6 +33,31 @@
         text-align: center;
         height: 4em;
         margin-top: -20px;
+        h2 {
+            line-height: 2em;
+        }
+    }
+}
+
+.deco-actualites {
+    h1{
+      text-align: center;
+      font-family:"Poiret One";
+    }
+    background-color: #FFF;
+    border: 1px solid #2CAFD9;
+    margin-top: 2em;
+    p{
+      margin-top: 1em;
+
+    }
+    .background-title {
+        background-color: #2CAFD9;
+        color: #fff;
+        text-align: center;
+        height: 4em;
+        margin-top: -20px;
+        margin-left: -42px;;
         h2 {
             line-height: 2em;
         }
