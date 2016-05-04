@@ -27,7 +27,7 @@
                 				</div>
                 			</div>
                 			<div class="col-md-2">
-                				<img src="img/logo.png" alt="logo paej">
+                				<img class="style-logo" src="img/logo_final.png" alt="logo paej">
                 			</div>
                 			<div class="col-md-5">
                 				<div class="menu-general menu-droite">

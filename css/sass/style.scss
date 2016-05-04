@@ -3,30 +3,98 @@
 @import "nadege.scss";
 @import "theo.scss";
 
+body {
+    background: url(../img/background.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 h2 {
     font-family: "Poiret One";
 }
 
-.button-home {
-    text-align: right;
-    a {
-    }
+.style-presentation {
+    background-color: #FFF;
+    border: 1px solid #999;
+    margin-bottom: 2em;
 }
 
 .style-actus {
-    border: 1px solid #999;
+    background-color: #FFF;
+    border: 1px solid #2CAFD9;
+    .button-home {
+        text-align: center;
+        height: 3em;
+        line-height: 3em;
+        background-color: #2CAFD9;
+    }
+    a {
+        font-family: "Poiret One";
+        font-size: 1.5em;
+        text-decoration: none;
+        color: #fff;
+    }
+    .separate-line {
+        border-bottom: 1px solid #2CAFD9;
+    }
+    .article-actu {
+        .text-article {
+            padding-top: 0.5em;
+        }
+        h3 {
+            color: #555;
+            margin-top: -0.3em;
+        }
+        #date {
+            font-size: 0.8em;
+            color: #555;
+        }
+    }
 }
 
 .style-activites {
-    border: 1px solid #999;
+    background-color: #FFF;
+    border: 1px solid #FF7070;
+    .button-home {
+        text-align: center;
+        height: 3em;
+        line-height: 3em;
+        background-color: #FF7070;
+    }
+    a {
+        font-family: "Poiret One";
+        font-size: 1.5em;
+        text-decoration: none;
+        color: #fff;
+    }
+    .separate-line {
+        border-bottom: 1px solid #FF7070;
+    }
+    .display-activites {
+        .text-article {
+            padding-top: 0.5em;
+            h3 {
+                color: #555;
+                margin-top: -0.3em;
+            }
+            #date {
+                font-size: 0.8em;
+                color: #555;
+            }
+        }
+    }
 }
 
 .style-faq-accueil {
+    background-color: #FFF;
     border: 1px solid #999;
+    padding-left: 1.5em;
     margin-top: 2em;
 }
 
 .style-contact {
+    background-color: #FFF;
     border: 1px solid #999;
     margin-top: 2em;
 }
