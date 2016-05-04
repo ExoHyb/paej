@@ -95,6 +95,42 @@ footer {
   line-height: 2em;
 }
 
+.deco-faq {
+  background-color: #FFF;
+  border: 1px solid #74CC45;
+  margin-top: 2em;
+}
+.deco-faq .background-title2 {
+  background-color: #74CC45;
+  color: #fff;
+  text-align: center;
+  height: 4em;
+  margin-top: -20px;
+}
+.deco-faq .background-title2 h2 {
+  line-height: 2em;
+}
+.deco-faq .background-title2 a {
+  font-family: "Poiret One";
+  font-size: 1.5em;
+  text-decoration: none;
+}
+.deco-faq .background-title2 .separate-line2 {
+  border-bottom: 1px solid #74CC45;
+}
+.deco-faq .background-title2 ul {
+  list-style-type: none;
+}
+.deco-faq .background-title2 li {
+  margin: 1em 0;
+}
+.deco-faq .background-title2 a {
+  color: #333;
+}
+.deco-faq .background-title2 a:hover {
+  color: #999;
+}
+
 body {
   background: url(../img/background.png);
   background-position: center top;
@@ -291,5 +327,3 @@ h2 {
 .style-facebook {
   margin-top: 2em;
 }
-
-/*# sourceMappingURL=style.css.map */
