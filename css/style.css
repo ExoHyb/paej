@@ -51,6 +51,22 @@ footer {
   margin-top: 3em;
 }
 
+.action {
+  border: 1px solid #999;
+  margin-top: 3em;
+  padding-left: 2em;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.activite {
+  border: 1px solid #999;
+  margin-top: 3em;
+  padding-left: 2em;
+}
+
 h2 {
   font-family: "Poiret One";
 }
@@ -81,5 +97,3 @@ h2 {
   border: 1px solid #999;
   margin-top: 2em;
 }
-
-/*# sourceMappingURL=style.css.map */
