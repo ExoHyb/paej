@@ -85,8 +85,27 @@ h2 {
 
 .style-presentation {
   background-color: #FFF;
-  border: 1px solid #999;
+  border: 1px solid #2CAFD9;
   margin-bottom: 2em;
+}
+.style-presentation .background-title {
+  background-color: #2CAFD9;
+  color: #fff;
+  text-align: center;
+  height: 4em;
+  margin-top: -20px;
+}
+.style-presentation .background-title h2 {
+  line-height: 2em;
+}
+.style-presentation .background-title a {
+  color: #fff;
+}
+.style-presentation .background-title a:hover {
+  text-decoration: none;
+}
+.style-presentation .style-text {
+  margin: 1em 2em;
 }
 
 .style-actus {
@@ -173,9 +192,47 @@ h2 {
 
 .style-faq-accueil {
   background-color: #FFF;
-  border: 1px solid #999;
-  padding-left: 1.5em;
+  border: 1px solid #2E8B57;
   margin-top: 2em;
+}
+.style-faq-accueil .background-title {
+  background-color: #2E8B57;
+  color: #fff;
+  text-align: center;
+  height: 4em;
+  margin-top: -20px;
+}
+.style-faq-accueil .background-title h2 {
+  line-height: 2em;
+}
+.style-faq-accueil .button-home {
+  text-align: center;
+  height: 3em;
+  line-height: 3em;
+  background-color: #2E8B57;
+}
+.style-faq-accueil .button-home a {
+  color: #FFF;
+}
+.style-faq-accueil a {
+  font-family: "Poiret One";
+  font-size: 1.5em;
+  text-decoration: none;
+}
+.style-faq-accueil .separate-line {
+  border-bottom: 1px solid #2E8B57;
+}
+.style-faq-accueil ul {
+  list-style-type: none;
+}
+.style-faq-accueil li {
+  margin: 1em 0;
+}
+.style-faq-accueil a {
+  color: #333;
+}
+.style-faq-accueil a:hover {
+  color: #999;
 }
 
 .style-contact {
