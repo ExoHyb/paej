@@ -94,12 +94,13 @@ footer {
   line-height: 2em;
 }
 
-/* body {
-    background: url(../img/background.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-} */
+body {
+  background: url(../img/background.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 h2 {
   font-family: "Poiret One";
 }
@@ -110,7 +111,7 @@ h2 {
   margin-bottom: 2em;
 }
 .style-presentation .background-title {
-  /* background-color: #FD6D45; */
+  background-color: #FD6D45;
   border-bottom: 1px solid #FD6D45;
   color: #fff;
   text-align: center;
@@ -121,7 +122,7 @@ h2 {
   line-height: 2em;
 }
 .style-presentation .background-title a {
-  color: #000;
+  color: #fff;
 }
 .style-presentation .background-title a:hover {
   text-decoration: none;
@@ -240,8 +241,8 @@ h2 {
   margin-top: 2em;
 }
 .style-faq-accueil .background-title {
-  /* background-color: #74CC45; */
-  color: #000;
+  background-color: #74CC45;
+  color: #fff;
   text-align: center;
   height: 4em;
   margin-top: -20px;
@@ -253,11 +254,11 @@ h2 {
   text-align: center;
   height: 3em;
   line-height: 3em;
-  background-color: #FFF;
+  background-color: #74CC45;
   border-top: 1px solid #74CC45;
 }
 .style-faq-accueil .button-home a {
-  color: #000;
+  color: #fff;
 }
 .style-faq-accueil a {
   font-family: "Poiret One";
