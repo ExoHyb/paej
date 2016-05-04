@@ -20,7 +20,9 @@
         <!-- Ouverture Colonne pour Action -->
         <div class="col-md-6">
             <div class="style-activites">
-                <h2>Les activités du PAEJ</h2>
+                <div class="background-title">
+                    <h2>Les activités du PAEJ</h2>
+                </div>
                 <div class="separate-line"></div>
                 <div class="row">
                     <div class="display-activites">

@@ -4,8 +4,8 @@
 @import "theo.scss";
 
 body {
-    background: url(../img/background.png);
-    background-position: center top;
+/*     background: url(../img/background.png);
+     */    background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -23,6 +23,16 @@ h2 {
 .style-actus {
     background-color: #FFF;
     border: 1px solid #2CAFD9;
+    .background-title {
+        background-color: #2CAFD9;
+        color: #fff;
+        text-align: center;
+        height: 4em;
+        margin-top: -20px;
+        h2 {
+            line-height: 2em;
+        }
+    }
     .button-home {
         text-align: center;
         height: 3em;
@@ -56,6 +66,16 @@ h2 {
 .style-activites {
     background-color: #FFF;
     border: 1px solid #FF7070;
+    .background-title {
+        background-color: #FF7070;
+        color: #fff;
+        text-align: center;
+        height: 4em;
+        margin-top: -20px;
+        h2 {
+            line-height: 2em;
+        }
+    }
     .button-home {
         text-align: center;
         height: 3em;

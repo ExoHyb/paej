@@ -72,7 +72,8 @@ h2 {
 }
 
 body {
-  background: url(../img/background.png);
+  /*     background: url(../img/background.png);
+       */
   background-position: center top;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -91,6 +92,16 @@ h2 {
 .style-actus {
   background-color: #FFF;
   border: 1px solid #2CAFD9;
+}
+.style-actus .background-title {
+  background-color: #2CAFD9;
+  color: #fff;
+  text-align: center;
+  height: 4em;
+  margin-top: -20px;
+}
+.style-actus .background-title h2 {
+  line-height: 2em;
 }
 .style-actus .button-home {
   text-align: center;
@@ -122,6 +133,16 @@ h2 {
 .style-activites {
   background-color: #FFF;
   border: 1px solid #FF7070;
+}
+.style-activites .background-title {
+  background-color: #FF7070;
+  color: #fff;
+  text-align: center;
+  height: 4em;
+  margin-top: -20px;
+}
+.style-activites .background-title h2 {
+  line-height: 2em;
 }
 .style-activites .button-home {
   text-align: center;
@@ -167,3 +188,5 @@ h2 {
   border: 1px solid #999;
   margin-top: 2em;
 }
+
+/*# sourceMappingURL=style.css.map */

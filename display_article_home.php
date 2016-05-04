@@ -1,6 +1,8 @@
 <div class="col-md-6">
             <div class="style-actus">
-                <h2>Actualités du PAEJ</h2>
+                <div class="background-title">
+                    <h2>Actualités du PAEJ</h2>
+                </div>
                 <div class="separate-line"></div>
                 <div class="row">
                     <div class="article-actu">
