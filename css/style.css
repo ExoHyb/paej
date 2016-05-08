@@ -33,7 +33,7 @@ footer {
 
 .deco-actions {
   background-color: #FFF;
-  border: 1px solid #2E8B57;
+  border: 1px solid #26c6da;
   margin-top: 2em;
 }
 .deco-actions p {
@@ -41,7 +41,7 @@ footer {
   margin-left: 1em;
 }
 .deco-actions .background-title {
-  background-color: #2E8B57;
+  background-color: #26c6da;
   color: #fff;
   text-align: center;
   height: 4em;
@@ -53,7 +53,7 @@ footer {
 
 .deco-activites {
   background-color: #FFF;
-  border: 1px solid #FF7070;
+  border: 1px solid #f4511e;
   margin-top: 2em;
 }
 .deco-activites p {
@@ -61,7 +61,7 @@ footer {
   margin-left: 1em;
 }
 .deco-activites .background-title {
-  background-color: #FF7070;
+  background-color: #f4511e;
   color: #fff;
   text-align: center;
   height: 4em;
