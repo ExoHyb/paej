@@ -4,7 +4,7 @@
 @import "theo.scss";
 
 body {
-    background: url(../img/background.png);
+    background: url(../img/background2.png);
     background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -16,11 +16,11 @@ h2 {
 
 .style-presentation {
     background-color: #FFF;
-    border: 1px solid #FD6D45;
+    border: 1px solid #ffca28;
     margin-bottom: 2em;
     .background-title {
-        background-color: #FD6D45;
-        border-bottom: 1px solid #FD6D45;
+        background-color: #ffca28;
+        border-bottom: 1px solid #ffca28;
         color: #fff;
         text-align: center;
         height: 4em;
@@ -46,9 +46,9 @@ h2 {
 
 .style-actus {
     background-color: #FFF;
-    border: 1px solid #2CAFD9;
+    border: 1px solid #26c6da;
     .background-title {
-        background-color: #2CAFD9;
+        background-color: #26c6da;
         color: #fff;
         text-align: center;
         height: 4em;
@@ -61,7 +61,7 @@ h2 {
         text-align: center;
         height: 3em;
         line-height: 3em;
-        background-color: #2CAFD9;
+        background-color: #26c6da;
         a {
             font-family: "Poiret One";
             font-size: 1.5em;
@@ -70,17 +70,17 @@ h2 {
         }
     }
     .separate-line {
-        border-bottom: 1px solid #2CAFD9;
+        border-bottom: 1px solid #26c6da;
     }
     .article-actu {
         .text-article {
             padding-top: 0.5em;
         }
         h3 {
-            color: #2CAFD9;
+            color: #26c6da;
             margin-top: -0.3em;
             a {
-                color: #2CAFD9;
+                color: #26c6da;
                 font-family: "Poiret One";
             }
             a:hover {
@@ -98,9 +98,9 @@ h2 {
 
 .style-activites {
     background-color: #FFF;
-    border: 1px solid #FF7070;
+    border: 1px solid #f4511e;
     .background-title {
-        background-color: #FF7070;
+        background-color: #f4511e;
         color: #fff;
         text-align: center;
         height: 4em;
@@ -113,7 +113,7 @@ h2 {
         text-align: center;
         height: 3em;
         line-height: 3em;
-        background-color: #FF7070;
+        background-color: #f4511e;
         a {
             font-family: "Poiret One";
             font-size: 1.5em;
@@ -122,7 +122,7 @@ h2 {
         }
     }
     .separate-line {
-        border-bottom: 1px solid #FF7070;
+        border-bottom: 1px solid #f4511e;
     }
     .display-activites {
         .text-article {
@@ -132,7 +132,7 @@ h2 {
                 margin-top: -0.3em;
                 font-family: "Poiret One";
                 a {
-                    color: #FF7070;
+                    color: #f4511e;
                 }
                 a:hover {
                     text-decoration: none;
@@ -150,11 +150,11 @@ h2 {
 
 .style-faq-accueil {
     background-color: #FFF;
-    border: 1px solid #74CC45;
+    border: 1px solid #8e24aa;
     margin-top: 2em;
     .background-title {
-        background-color: #74CC45;
-        // border-bottom: 1px solid #74CC45;
+        background-color: #8e24aa;
+        // border-bottom: 1px solid #8e24aa;
         color: #fff;
         text-align: center;
         height: 4em;
@@ -167,8 +167,8 @@ h2 {
         text-align: center;
         height: 3em;
         line-height: 3em;
-        background-color: #74CC45;
-        border-top: 1px solid #74CC45;
+        background-color: #8e24aa;
+        border-top: 1px solid #8e24aa;
         a {
             color: #fff;
         }
@@ -179,7 +179,7 @@ h2 {
         text-decoration: none;
     }
     .separate-line {
-        border-bottom: 1px solid #74CC45;
+        border-bottom: 1px solid #8e24aa;
     }
     ul {
         list-style-type: none;
@@ -197,10 +197,37 @@ h2 {
 
 .style-contact {
     background-color: #FFF;
-    border: 1px solid #999;
+    border: 1px solid #74CC45;
     margin-top: 2em;
+    h3 {
+        font-weight: bold;
+    }
+    .background-title {
+        background-color: #74CC45;
+        color: #fff;
+        text-align: center;
+        height: 4em;
+        margin-top: -20px;
+        h2 {
+            line-height: 2em;
+        }
+    }
+    .separate-line {
+        border-bottom: 1px solid #74CC45;
+    }
+    .style-name {
+        text-align: center;
+        font-family: "Poiret One";
+        font-weight: bold;
+    }
+    .style-adresse {
+        text-align: center;
+        font-family: "Poiret One";
+        font-weight: bold;
+    }
 }
 
 .style-facebook {
     margin-top: 2em;
 }
+

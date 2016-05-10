@@ -133,17 +133,53 @@
     <div class="row">
         <div class="col-md-8">
             <div class="style-contact">
-                <h2>Contact</h2>
-                <h3>Céline & Olivier</h3>
-                <p>
-                    06.70.80.73.36
-                </p>
-                <ul>
-                    <li>Point Accueil Ecoute Jeunes</li>
-                    <li>10-12 Rue des Clapiers</li>
-                    <li>48000 Mende</li>
-                </ul>
-                <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:370px;width:550px;'><div id='gmap_canvas' style='height:370px;width:550px;'></div><div><small><a href="http://embedgooglemaps.com">                                   google maps carte                           </a></small></div><div><small><a href="http://www.youtubeembedcode.com">generate youtube code</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:13,center:new google.maps.LatLng(44.5198646,3.504471800000033),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(44.5198646,3.504471800000033)});infowindow = new google.maps.InfoWindow({content:'<strong>PAEJ</strong><br>10-12 rue des clapiers 48000<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                <div class="background-title">
+                    <h2>Contact</h2>
+                </div>
+                <div class="separate-line"></div>
+                <div class="style-name">
+                    <h3>Céline & Olivier</h3>
+                    <p>06.70.80.73.36</p>
+                    <p>paej@mli48.com</p>
+                    <h3>Retrouvez nous à:</h3>
+                </div>
+                <div class="style-adresse">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>Mende</h3>
+                            <p>Local PAEJ</p>
+                            <p>10 Rue des Clapiers</p>
+                            <p>48000 Mende</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h3>Langogne</h3>
+                            <p>Relais services publics</p>
+                            <p>Place de la République</p>
+                            <p>48300 Langogne</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h3>St Chely d'Apcher</h3>
+                            <p>Relais services publics</p>
+                            <p>Route de Fournels</p>
+                            <p>48... St Chely d'Apcher</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h3>Marvejols</h3>
+                            <p>Relais services publics</p>
+                            <p>6 rue Victor Cordesse</p>
+                            <p>48... Marvejols</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h3>Florac</h3>
+                            <p>Relais services publics</p>
+                            <p>1 place Paul Comte</p>
+                            <p>48... Florac</p>
+                        </div>
+                    </div>
+                </div>
+                <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:370px;width:100%;'><div id='gmap_canvas' style='height:370px;width:100%;'></div><div><small><a href="http://embedgooglemaps.com">                                   google maps carte                           </a></small></div><div><small><a href="http://www.youtubeembedcode.com">generate youtube code</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:13,center:new google.maps.LatLng(44.5198646,3.504471800000033),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(44.5198646,3.504471800000033)});infowindow = new google.maps.InfoWindow({content:'<strong>PAEJ</strong><br>10-12 rue des clapiers 48000<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
             </div>
         </div>
         <div class="col-md-4">

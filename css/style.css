@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header {
   /* background: url('../img/background.png') center center; */
   margin-bottom: 2em;
@@ -6,8 +7,8 @@ header {
 .menu-principal {
   list-style-type: none;
   text-align: center;
-  border: 1px solid #fff;
-  background-color: #E24566;
+  border: 1px solid #e03f54;
+  background-color: #e03f54;
   height: 4em;
 }
 .menu-principal li {
@@ -26,14 +27,98 @@ header {
   font-weight: bold;
 }
 
-footer {
-  text-align: center;
-  margin-top: 3em;
+.header-inner {
+  display: table;
+  margin: 0 auto;
+  /* on centre l'├®l├®ment */
+  padding: 20px 25px;
+  /* on ventile un peu */
 }
 
+.header-inner > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/*
+   Faire passer le menu en inline (inline-block, inline-table ou inline-flex) pour le rendre sensible ├á l'alignement ├á droite. Ses items aussi sont en inline.
+*/
+.header-nav ul,
+.header-nav li {
+  display: inline;
+  list-style: none;
+}
+
+.header-nav a {
+  position: relative;
+  display: inline-block;
+  letter-spacing: 0.025em;
+  text-decoration: none;
+}
+
+.header-nav a:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  left: 20px;
+  height: 2px;
+  background-color: #B13C2E;
+  /* Pr├®paration de notre animation */
+  opacity: 0;
+  transform: translateY(5px);
+  transition: all .4s;
+}
+
+/* Le trait va remonter et apparaitre */
+.header-nav a:hover:after,
+.header-nav a:focus:after {
+  opacity: .6;
+  transform: translateY(0);
+}
+
+/* Je vire outline car juste au-dessus je d├®finis un style :focus */
+.header-nav a:focus {
+  outline: none;
+}
+
+footer {
+  background-color: #D9D9D9;
+  margin-top: 3em;
+  padding: 1em 2em;
+}
+footer p {
+  text-align: center;
+}
+footer .logo {
+  list-style-type: none;
+}
+
+.main-header {
+  position: sticky;
+  top: 0;
+}
+
+.nav-is-stuck .main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  animation: stickAnim .3s;
+}
+
+@keyframes stickAnim {
+  0% {
+    transform: translateY(-86px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .deco-actions {
   background-color: #FFF;
-  border: 1px solid #2E8B57;
+  border: 1px solid #26c6da;
   margin-top: 2em;
 }
 .deco-actions p {
@@ -41,7 +126,7 @@ footer {
   margin-left: 1em;
 }
 .deco-actions .background-title {
-  background-color: #2E8B57;
+  background-color: #26c6da;
   color: #fff;
   text-align: center;
   height: 4em;
@@ -53,7 +138,7 @@ footer {
 
 .deco-activites {
   background-color: #FFF;
-  border: 1px solid #FF7070;
+  border: 1px solid #f4511e;
   margin-top: 2em;
 }
 .deco-activites p {
@@ -61,7 +146,7 @@ footer {
   margin-left: 1em;
 }
 .deco-activites .background-title {
-  background-color: #FF7070;
+  background-color: #f4511e;
   color: #fff;
   text-align: center;
   height: 4em;
@@ -134,7 +219,7 @@ footer {
 }
 
 body {
-  background: url(../img/background.png);
+  background: url(../img/background2.png);
   background-position: center top;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -146,12 +231,12 @@ h2 {
 
 .style-presentation {
   background-color: #FFF;
-  border: 1px solid #FD6D45;
+  border: 1px solid #ffca28;
   margin-bottom: 2em;
 }
 .style-presentation .background-title {
-  background-color: #FD6D45;
-  border-bottom: 1px solid #FD6D45;
+  background-color: #ffca28;
+  border-bottom: 1px solid #ffca28;
   color: #fff;
   text-align: center;
   height: 4em;
@@ -176,10 +261,10 @@ h2 {
 
 .style-actus {
   background-color: #FFF;
-  border: 1px solid #2CAFD9;
+  border: 1px solid #26c6da;
 }
 .style-actus .background-title {
-  background-color: #2CAFD9;
+  background-color: #26c6da;
   color: #fff;
   text-align: center;
   height: 4em;
@@ -192,7 +277,7 @@ h2 {
   text-align: center;
   height: 3em;
   line-height: 3em;
-  background-color: #2CAFD9;
+  background-color: #26c6da;
 }
 .style-actus .button-home a {
   font-family: "Poiret One";
@@ -201,17 +286,17 @@ h2 {
   color: #fff;
 }
 .style-actus .separate-line {
-  border-bottom: 1px solid #2CAFD9;
+  border-bottom: 1px solid #26c6da;
 }
 .style-actus .article-actu .text-article {
   padding-top: 0.5em;
 }
 .style-actus .article-actu h3 {
-  color: #2CAFD9;
+  color: #26c6da;
   margin-top: -0.3em;
 }
 .style-actus .article-actu h3 a {
-  color: #2CAFD9;
+  color: #26c6da;
   font-family: "Poiret One";
 }
 .style-actus .article-actu h3 a:hover {
@@ -226,10 +311,10 @@ h2 {
 
 .style-activites {
   background-color: #FFF;
-  border: 1px solid #FF7070;
+  border: 1px solid #f4511e;
 }
 .style-activites .background-title {
-  background-color: #FF7070;
+  background-color: #f4511e;
   color: #fff;
   text-align: center;
   height: 4em;
@@ -242,7 +327,7 @@ h2 {
   text-align: center;
   height: 3em;
   line-height: 3em;
-  background-color: #FF7070;
+  background-color: #f4511e;
 }
 .style-activites .button-home a {
   font-family: "Poiret One";
@@ -251,7 +336,7 @@ h2 {
   color: #fff;
 }
 .style-activites .separate-line {
-  border-bottom: 1px solid #FF7070;
+  border-bottom: 1px solid #f4511e;
 }
 .style-activites .display-activites .text-article {
   padding-top: 0.5em;
@@ -262,7 +347,7 @@ h2 {
   font-family: "Poiret One";
 }
 .style-activites .display-activites .text-article h3 a {
-  color: #FF7070;
+  color: #f4511e;
 }
 .style-activites .display-activites .text-article h3 a:hover {
   text-decoration: none;
@@ -276,11 +361,11 @@ h2 {
 
 .style-faq-accueil {
   background-color: #FFF;
-  border: 1px solid #74CC45;
+  border: 1px solid #8e24aa;
   margin-top: 2em;
 }
 .style-faq-accueil .background-title {
-  background-color: #74CC45;
+  background-color: #8e24aa;
   color: #fff;
   text-align: center;
   height: 4em;
@@ -293,8 +378,8 @@ h2 {
   text-align: center;
   height: 3em;
   line-height: 3em;
-  background-color: #74CC45;
-  border-top: 1px solid #74CC45;
+  background-color: #8e24aa;
+  border-top: 1px solid #8e24aa;
 }
 .style-faq-accueil .button-home a {
   color: #fff;
@@ -305,7 +390,7 @@ h2 {
   text-decoration: none;
 }
 .style-faq-accueil .separate-line {
-  border-bottom: 1px solid #74CC45;
+  border-bottom: 1px solid #8e24aa;
 }
 .style-faq-accueil ul {
   list-style-type: none;
@@ -322,8 +407,34 @@ h2 {
 
 .style-contact {
   background-color: #FFF;
-  border: 1px solid #999;
+  border: 1px solid #74CC45;
   margin-top: 2em;
+}
+.style-contact h3 {
+  font-weight: bold;
+}
+.style-contact .background-title {
+  background-color: #74CC45;
+  color: #fff;
+  text-align: center;
+  height: 4em;
+  margin-top: -20px;
+}
+.style-contact .background-title h2 {
+  line-height: 2em;
+}
+.style-contact .separate-line {
+  border-bottom: 1px solid #74CC45;
+}
+.style-contact .style-name {
+  text-align: center;
+  font-family: "Poiret One";
+  font-weight: bold;
+}
+.style-contact .style-adresse {
+  text-align: center;
+  font-family: "Poiret One";
+  font-weight: bold;
 }
 
 .style-facebook {
