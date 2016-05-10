@@ -30,7 +30,7 @@ header {
 .header-inner {
   display: table;
   margin: 0 auto;
-  /* on centre l'├®l├®ment */
+  /* on centre l'élément */
   padding: 20px 25px;
   /* on ventile un peu */
 }
@@ -41,7 +41,7 @@ header {
 }
 
 /*
-   Faire passer le menu en inline (inline-block, inline-table ou inline-flex) pour le rendre sensible ├á l'alignement ├á droite. Ses items aussi sont en inline.
+   Faire passer le menu en inline (inline-block, inline-table ou inline-flex) pour le rendre sensible à l'alignement à droite. Ses items aussi sont en inline.
 */
 .header-nav ul,
 .header-nav li {
@@ -64,7 +64,7 @@ header {
   left: 20px;
   height: 2px;
   background-color: #B13C2E;
-  /* Pr├®paration de notre animation */
+  /* Préparation de notre animation */
   opacity: 0;
   transform: translateY(5px);
   transition: all .4s;
@@ -77,7 +77,7 @@ header {
   transform: translateY(0);
 }
 
-/* Je vire outline car juste au-dessus je d├®finis un style :focus */
+/* Je vire outline car juste au-dessus je définis un style :focus */
 .header-nav a:focus {
   outline: none;
 }
@@ -190,10 +190,13 @@ footer .logo {
 }
 
 .formulaire {
-  margin-top: 3em;
+  margin-top: 2em;
   background-color: #FFF;
   border: 1px solid #74CC45;
   padding: 4em;
+}
+.formulaire h2 {
+  margin-top: 0.2em;
 }
 
 body {
