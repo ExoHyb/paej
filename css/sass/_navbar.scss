@@ -25,3 +25,54 @@ header {
 		font-weight: bold;
 	}
 }
+
+.header-inner {
+	display: table;
+	margin: 0 auto; /* on centre l'élément */
+	padding: 20px 25px; /* on ventile un peu */
+}
+.header-inner > * {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.header-nav {
+
+}
+/*
+   Faire passer le menu en inline (inline-block, inline-table ou inline-flex) pour le rendre sensible à l'alignement à droite. Ses items aussi sont en inline.
+*/
+.header-nav ul,
+.header-nav li {
+	display: inline;
+	list-style: none;
+}
+.header-nav a {
+	position: relative;
+	display: inline-block;
+	letter-spacing: 0.025em;
+	text-decoration: none;
+}
+
+.header-nav a:after {
+	content: "";
+	position: absolute;
+	bottom: 0; right: 20px; left: 20px;
+	height: 2px;
+	background-color: #B13C2E;
+
+	/* Préparation de notre animation */
+	opacity: 0;
+	transform: translateY(5px);
+	transition: all .4s;
+}
+/* Le trait va remonter et apparaitre */
+.header-nav a:hover:after,
+.header-nav a:focus:after {
+	opacity: .6;
+	transform: translateY(0);
+}
+/* Je vire outline car juste au-dessus je définis un style :focus */
+.header-nav a:focus {
+	outline: none;
+}
