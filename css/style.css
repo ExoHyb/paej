@@ -27,10 +27,15 @@ header {
 }
 
 footer {
-  height: 5em;
-  background-color: #EBEBEB;
-  text-align: center;
+  background-color: #D9D9D9;
   margin-top: 3em;
+  padding: 1em 2em;
+}
+footer p {
+  text-align: center;
+}
+footer .logo {
+  list-style-type: none;
 }
 
 .deco-actions {
