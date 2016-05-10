@@ -1,7 +1,15 @@
-@charset "UTF-8";
 header {
   /* background: url('../img/background.png') center center; */
   margin-bottom: 2em;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: "Passion One";
+  text-align: center;
+}
+h1 span {
+  display: inline-block;
 }
 
 .menu-principal {
@@ -25,61 +33,6 @@ header {
 .menu-principal a:hover {
   text-decoration: none;
   font-weight: bold;
-}
-
-.header-inner {
-  display: table;
-  margin: 0 auto;
-  /* on centre l'├®l├®ment */
-  padding: 20px 25px;
-  /* on ventile un peu */
-}
-
-.header-inner > * {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-/*
-   Faire passer le menu en inline (inline-block, inline-table ou inline-flex) pour le rendre sensible ├á l'alignement ├á droite. Ses items aussi sont en inline.
-*/
-.header-nav ul,
-.header-nav li {
-  display: inline;
-  list-style: none;
-}
-
-.header-nav a {
-  position: relative;
-  display: inline-block;
-  letter-spacing: 0.025em;
-  text-decoration: none;
-}
-
-.header-nav a:after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: 20px;
-  left: 20px;
-  height: 2px;
-  background-color: #B13C2E;
-  /* Pr├®paration de notre animation */
-  opacity: 0;
-  transform: translateY(5px);
-  transition: all .4s;
-}
-
-/* Le trait va remonter et apparaitre */
-.header-nav a:hover:after,
-.header-nav a:focus:after {
-  opacity: .6;
-  transform: translateY(0);
-}
-
-/* Je vire outline car juste au-dessus je d├®finis un style :focus */
-.header-nav a:focus {
-  outline: none;
 }
 
 footer {
@@ -208,9 +161,14 @@ h2 {
 }
 
 .style-presentation {
-  background-color: #FFF;
+  background-color: #fff;
+  /* background-color: rgba(255, 202, 40, 0.2); */
   border: 1px solid #ffca28;
   margin-bottom: 2em;
+}
+.style-presentation .background-opacity {
+  background-color: rgba(255, 202, 40, 0.2);
+  height: 100%;
 }
 .style-presentation .background-title {
   background-color: #ffca28;
@@ -238,8 +196,12 @@ h2 {
 }
 
 .style-actus {
-  background-color: #FFF;
+  background-color: #fff;
+  /* background-color: rgba(38, 198, 218, 0.20); */
   border: 1px solid #26c6da;
+}
+.style-actus .background-opacity {
+  background-color: rgba(38, 198, 218, 0.2);
 }
 .style-actus .background-title {
   background-color: #26c6da;
@@ -290,6 +252,9 @@ h2 {
 .style-activites {
   background-color: #FFF;
   border: 1px solid #f4511e;
+}
+.style-activites .background-opacity {
+  background-color: rgba(244, 81, 30, 0.2);
 }
 .style-activites .background-title {
   background-color: #f4511e;
@@ -342,6 +307,9 @@ h2 {
   border: 1px solid #8e24aa;
   margin-top: 2em;
 }
+.style-faq-accueil .background-opacity {
+  background-color: rgba(142, 36, 170, 0.2);
+}
 .style-faq-accueil .background-title {
   background-color: #8e24aa;
   color: #fff;
@@ -388,6 +356,9 @@ h2 {
   border: 1px solid #74CC45;
   margin-top: 2em;
 }
+.style-contact .background-opacity {
+  background-color: rgba(116, 204, 69, 0.2);
+}
 .style-contact h3 {
   font-weight: bold;
 }
@@ -418,3 +389,5 @@ h2 {
 .style-facebook {
   margin-top: 2em;
 }
+
+/*# sourceMappingURL=style.css.map */

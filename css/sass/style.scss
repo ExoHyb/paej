@@ -15,9 +15,14 @@ h2 {
 }
 
 .style-presentation {
-    background-color: #FFF;
+    background-color: #fff;
+    /* background-color: rgba(255, 202, 40, 0.2); */
     border: 1px solid #ffca28;
     margin-bottom: 2em;
+    .background-opacity {
+        background-color: rgba(255, 202, 40, 0.2);
+        height: 100%;
+    }
     .background-title {
         background-color: #ffca28;
         border-bottom: 1px solid #ffca28;
@@ -45,8 +50,12 @@ h2 {
 }
 
 .style-actus {
-    background-color: #FFF;
+    background-color: #fff;
+    /* background-color: rgba(38, 198, 218, 0.20); */
     border: 1px solid #26c6da;
+    .background-opacity {
+        background-color: rgba(38, 198, 218, 0.20);
+    }
     .background-title {
         background-color: #26c6da;
         color: #fff;
@@ -99,6 +108,9 @@ h2 {
 .style-activites {
     background-color: #FFF;
     border: 1px solid #f4511e;
+    .background-opacity {
+        background-color: rgba(244, 81, 30, 0.20);
+    }
     .background-title {
         background-color: #f4511e;
         color: #fff;
@@ -152,6 +164,9 @@ h2 {
     background-color: #FFF;
     border: 1px solid #8e24aa;
     margin-top: 2em;
+    .background-opacity {
+        background-color: rgba(142, 36, 170, 0.20);
+    }
     .background-title {
         background-color: #8e24aa;
         // border-bottom: 1px solid #8e24aa;
@@ -199,6 +214,9 @@ h2 {
     background-color: #FFF;
     border: 1px solid #74CC45;
     margin-top: 2em;
+    .background-opacity {
+        background-color: rgba(116, 204, 69, 0.20);
+    }
     h3 {
         font-weight: bold;
     }

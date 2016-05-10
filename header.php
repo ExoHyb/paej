@@ -16,9 +16,26 @@
         <div class="header-inner">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-md-offset-4">
+                    <div class="col-md-12">
+                        <h1>
+                            <span>Point Accueil</span>
+                            <span><img class="img-responsive" src="img/logo_final.png" alt=""></span>
+                            <span>Ecoute Jeunes</span>
+                        </h1>
+                    </div>
+                    <!-- <div class="col-md-4">
+                        <div class="style-title-1">
+                            <h1>Point Accueil</h1>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
                         <img class="img-responsive" src="img/logo_final.png" alt="">
                     </div>
+                    <div class="col-md-4">
+                        <div class="style-title-2">
+                            <h1>Ecoute Jeunes</h1>
+                        </div>
+                    </div> -->
                 </div>
                 <div class="row">
                     <div class="col-md-12">
