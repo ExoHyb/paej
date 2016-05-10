@@ -27,6 +27,8 @@ header {
 }
 
 footer {
+  height: 5em;
+  background-color: #EBEBEB;
   text-align: center;
   margin-top: 3em;
 }
@@ -315,8 +317,34 @@ h2 {
 
 .style-contact {
   background-color: #FFF;
-  border: 1px solid #999;
+  border: 1px solid #74CC45;
   margin-top: 2em;
+}
+.style-contact h3 {
+  font-weight: bold;
+}
+.style-contact .background-title {
+  background-color: #74CC45;
+  color: #fff;
+  text-align: center;
+  height: 4em;
+  margin-top: -20px;
+}
+.style-contact .background-title h2 {
+  line-height: 2em;
+}
+.style-contact .separate-line {
+  border-bottom: 1px solid #74CC45;
+}
+.style-contact .style-name {
+  text-align: center;
+  font-family: "Poiret One";
+  font-weight: bold;
+}
+.style-contact .style-adresse {
+  text-align: center;
+  font-family: "Poiret One";
+  font-weight: bold;
 }
 
 .style-facebook {
