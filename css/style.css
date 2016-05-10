@@ -35,64 +35,6 @@ h1 span {
   font-weight: bold;
 }
 
-<<<<<<< HEAD
-=======
-.header-inner {
-  display: table;
-  margin: 0 auto;
-  /* on centre l'élément */
-  padding: 20px 25px;
-  /* on ventile un peu */
-}
-
-.header-inner > * {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-/*
-   Faire passer le menu en inline (inline-block, inline-table ou inline-flex) pour le rendre sensible à l'alignement à droite. Ses items aussi sont en inline.
-*/
-.header-nav ul,
-.header-nav li {
-  display: inline;
-  list-style: none;
-}
-
-.header-nav a {
-  position: relative;
-  display: inline-block;
-  letter-spacing: 0.025em;
-  text-decoration: none;
-}
-
-.header-nav a:after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: 20px;
-  left: 20px;
-  height: 2px;
-  background-color: #B13C2E;
-  /* Préparation de notre animation */
-  opacity: 0;
-  transform: translateY(5px);
-  transition: all .4s;
-}
-
-/* Le trait va remonter et apparaitre */
-.header-nav a:hover:after,
-.header-nav a:focus:after {
-  opacity: .6;
-  transform: translateY(0);
-}
-
-/* Je vire outline car juste au-dessus je définis un style :focus */
-.header-nav a:focus {
-  outline: none;
-}
-
->>>>>>> 9dcac8e67e13e73ee8f634c9f48f8017a2f0e05f
 footer {
   background-color: #D9D9D9;
   margin-top: 3em;
@@ -199,6 +141,11 @@ footer .logo {
 .deco-faq a:hover {
   color: #999;
 }
+.deco-faq .background-opacity {
+  background-color: rgba(116, 204, 69, 0.2);
+  height: 100%;
+  width: 100%;
+}
 
 .formulaire {
   margin-top: 2em;
@@ -208,6 +155,18 @@ footer .logo {
 }
 .formulaire h2 {
   margin-top: 0.2em;
+}
+.formulaire h2, .formulaire h3 {
+  font-family: "Poiret One";
+  text-align: center;
+}
+.formulaire h3 {
+  margin-bottom: 1em;
+}
+.formulaire .background-opacity {
+  background-color: rgba(116, 204, 69, 0.2);
+  height: 100%;
+  width: 100%;
 }
 
 body {
