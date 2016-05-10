@@ -126,6 +126,13 @@ footer {
   color: #999;
 }
 
+.formulaire {
+  margin-top: 3em;
+  background-color: #FFF;
+  border: 1px solid #74CC45;
+  padding: 4em;
+}
+
 body {
   background: url(../img/background.png);
   background-position: center top;
@@ -322,5 +329,3 @@ h2 {
 .style-facebook {
   margin-top: 2em;
 }
-
-/*# sourceMappingURL=style.css.map */
