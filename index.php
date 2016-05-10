@@ -163,19 +163,19 @@
                             <h3>St Chely d'Apcher</h3>
                             <p>Relais services publics</p>
                             <p>Route de Fournels</p>
-                            <p>48... St Chely d'Apcher</p>
+                            <p>48200 St Chely d'Apcher</p>
                         </div>
                         <div class="col-md-4">
                             <h3>Marvejols</h3>
                             <p>Relais services publics</p>
                             <p>6 rue Victor Cordesse</p>
-                            <p>48... Marvejols</p>
+                            <p>48100 Marvejols</p>
                         </div>
                         <div class="col-md-4">
                             <h3>Florac</h3>
                             <p>Relais services publics</p>
                             <p>1 place Paul Comte</p>
-                            <p>48... Florac</p>
+                            <p>48400 Florac</p>
                         </div>
                     </div>
                 </div>
