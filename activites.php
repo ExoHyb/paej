@@ -2,6 +2,13 @@
 
 <div class="container">
   <div class="row">
+    <div class="col-md-12">
+      <div class="style-calendrier text-center">
+        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;height=400&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=1tgs15ep2brou1dl7a6rjegmvc%40group.calendar.google.com&amp;color=%230F4B38&amp;ctz=Europe%2FParis" style="border-width:0" width="1000" height="400" frameborder="0" scrolling="no"></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="row">
     <div class="col-md-6">
       <div class="row">
         <div class="col-md-12">
