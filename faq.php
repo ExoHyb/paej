@@ -1,9 +1,9 @@
 <?php include "header.php"; ?>
 <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3">
-        <div class="formulaire">
-          <div class="background-opacity">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <div class="formulaire">
+        <div class="background-opacity">
           <form>
             <div class="form-group">
               <h2>Contactez Olivier & Céline</h2>
@@ -15,7 +15,7 @@
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox">J'autorise la publication de ma question dans la FAQ
+                <input type="checkbox">J'autorise la publication de ma question dans la FAQ</input>
               </label>
             </div>
             <div>
@@ -26,11 +26,10 @@
       </div>
     </div>
   </div>
-
-    <div class="row">
-      <div class="col-md-12">
-        <div class="deco-faq">
-          <div class="background-opacity">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="deco-faq">
+        <div class="background-opacity">
           <div class="background-title">
             <h2>Les Questions Fréquentes</h2>
           </div>

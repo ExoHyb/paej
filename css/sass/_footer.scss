@@ -1,12 +1,22 @@
 footer {
-	background-color: #D9D9D9;
+	background-color: #545454;
     margin-top: 3em;
     padding: 1em 2em;
+    a {
+    	color: #999;
+    }
+    a:hover {
+    	text-decoration: none;
+    	color: #fff;
+    }
     p {
     	text-align: center;
     }
     .logo {
     	list-style-type: none;
     }
+    #margin-text-footer {
+    margin-top: 2em;
+}
 }
 

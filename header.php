@@ -45,7 +45,7 @@
                                 <li><a href="actualites.php">Actualités</a></li>
                                 <li><a href="activites.php">Activités & Actions du PAEJ</a></li>
                                 <li><a href="#">Cartes & Ressources</a></li>
-                                <li><a href="faq.php">Vos questions..</a></li>
+                                <li><a href="faq.php">Contacter Olivier ou Céline</a></li>
                             </ul>
                         </nav>
                     </div>
