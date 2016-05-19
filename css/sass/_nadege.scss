@@ -107,6 +107,9 @@
       background-color: rgba(116, 204, 69, 1);
       border: 1px solid #74CC45;
       padding: 4em;
+      .background-opacity{
+        background-color: rgba(116, 204, 69, 0.20);
+      }
       h2{
         margin-top: 0.2em;
       }

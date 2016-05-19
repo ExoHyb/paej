@@ -8,6 +8,11 @@ body {
     background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: 100%;
+}
+
+.container {
+    width: 80%;
 }
 
 h2 {
