@@ -7,7 +7,7 @@
           <form>
             <div class="form-group">
               <h2>Contactez Olivier & Céline</h2>
-              <h3>On vous répond... (Anonyme):</h3>
+              <h3>On vous répond... (Anonyme)</h3>
               <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
             </div>
             <div>
