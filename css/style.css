@@ -40,8 +40,14 @@ footer {
   margin-top: 3em;
   padding: 1em 2em;
 }
+footer ul {
+  list-style-type: none;
+}
+footer li {
+  text-align: center;
+}
 footer a {
-  color: #999;
+  color: #fff;
 }
 footer a:hover {
   text-decoration: none;
@@ -49,6 +55,7 @@ footer a:hover {
 }
 footer p {
   text-align: center;
+  color: #fff;
 }
 footer .logo {
   list-style-type: none;
@@ -422,3 +429,9 @@ h2 {
 .style-facebook {
   margin-top: 2em;
 }
+
+.style-calendrier {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

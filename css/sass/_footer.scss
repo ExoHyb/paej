@@ -2,8 +2,14 @@ footer {
 	background-color: #545454;
     margin-top: 3em;
     padding: 1em 2em;
+    ul {
+        list-style-type: none;
+    }
+    li {
+        text-align: center; // voir left ou center ?
+    }
     a {
-    	color: #999;
+    	color: #fff;
     }
     a:hover {
     	text-decoration: none;
@@ -11,6 +17,7 @@ footer {
     }
     p {
     	text-align: center;
+        color: #fff;
     }
     .logo {
     	list-style-type: none;
